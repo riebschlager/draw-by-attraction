@@ -7,7 +7,7 @@ const sketch = function(p) {
 
     p.preload = function() {
         for (let i = 0; i < 19; i++) {
-            slices.push(p.loadImage(`./img/slice-${i}.png`));
+            slices.push(p.loadImage(`./p5js/img/slice-${i}.png`));
         }
     };
 
